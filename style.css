@@ -5,10 +5,21 @@ body {
 	float:right;
 	margin:20px;
 }
+.cta-button {
+	background-color: #4285f4;
+	font-weight:bold;
+	color:#fff;
+	padding: 0 12px;
+}
 .button {
 	display:inline-block;
 	margin: 0 5px;
-	font-size:12px;
+	font-size:14px;
+	vertical-align: middle;
+	line-height:30px;
+}
+.button:hover {
+	text-decoration: underline;
 }
 .footer {
 	position:absolute;
@@ -22,6 +33,7 @@ body {
 	width:543px;
 	margin:20px auto;
 }
+
 .logo {
 	text-align:center;
 }
